@@ -26,3 +26,19 @@ margin: 0 .5rem;
 text-decoration: none;
 color:blueviolet; 
 }
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    body {
+        font-size: 12px;
+
+    }
+}
